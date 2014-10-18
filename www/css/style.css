@@ -1,0 +1,83 @@
+/* Empty. Add your own CSS if you like */
+
+
+
+.Carousel img{
+    width: 100%;
+}
+
+.slider-pager {
+    bottom: 7%;
+    height: 1em;
+}
+.slider-pager .slider-pager-page {
+    margin: 0px 0.3em;
+    width: 0.8em;
+    opacity: 0.3; }
+
+.Carousel .slider-slide{
+    margin-bottom: -5px;
+}
+
+.index .title  {
+    text-align: center;
+    background-color: #dddddd;
+}
+.index .title  h2{
+    font-size:1.4em;
+    padding: 0.3em;
+    margin-bottom: 0.2em;
+}
+
+.classify{
+    display:-webkit-box;
+    -webkit-box-pack:center;
+    -webkit-box-align:center;
+}
+
+.kinds .circle{
+    text-align: center;
+    width: 2.6em;
+    height: 2.6em;
+    background:#43cee6;
+    border-radius: 0.7em;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #ffffff;
+    padding-top: 0.8em;
+    margin: 0.3em 0.7em 0.5em 0.55em ;
+}
+
+.commodity{
+    display:-webkit-box;
+    -webkit-box-pack:center;
+    -webkit-box-align:center;
+}
+
+.commodity .recommending {
+    width: 40%;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 4%;
+}
+
+.commodity .recommending img {
+    width: 100%;
+    height: 10em;
+}
+
+.commodity .recommending .detail{
+    display:-webkit-box;
+
+}
+
+.detail .desc{
+    -webkit-box-flex:2.0;
+    box-flex:2.0;
+}
+.detail .price{
+    -webkit-box-flex:1.0;
+    box-flex:1.0;
+    color: red;
+    font-weight: bold;
+}
